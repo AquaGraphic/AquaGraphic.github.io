@@ -38,6 +38,15 @@ var PROJECTS = [
       "images/selfharm-1st-post/09.webp",
     ],
   },
+
+  {
+    t: "NEW TITLE",
+    cat: "MSSA-mansoura",
+    c: "SOME DESCRIPTION.",
+    images: [
+      // and repeat for the other images same path just diff name
+    ],
+  },
   {
     t: "Shouman Summer Training 2026",
     cat: "MSSA-mansoura",
@@ -146,6 +155,47 @@ var PROJECTS = [
       "images/luna-dulces/06.png",
     ],
   },
+  {
+    t: "NEW TITLE",
+    cat: "Unpublished Projects",
+    c: "SOME DESCRIPTION.",
+    images: [
+      // and repeat for the other images same path just diff name
+    ],
+  },
+  {
+    t: "NEW TITLE",
+    cat: "Unpublished Projects",
+    c: "SOME DESCRIPTION.",
+    images: [
+      // and repeat for the other images same path just diff name
+    ],
+  },
+  {
+    t: "NEW TITLE",
+    cat: "Unpublished Projects",
+    c: "SOME DESCRIPTION.",
+    images: [
+      // and repeat for the other images same path just diff name
+    ],
+  },
+  {
+    t: "NEW TITLE",
+    cat: "Unpublished Projects",
+    c: "SOME DESCRIPTION.",
+    images: [
+      "images/PROJECT-FOLDER-NAME/IMAGE-NAME.ext",
+      // and repeat for the other images same path just diff name
+    ],
+  },
+  {
+    t: "NEW TITLE",
+    cat: "Unpublished Projects",
+    c: "SOME DESCRIPTION.",
+    images: [
+      // and repeat for the other images same path just diff name
+    ],
+  },
 ];
 /* ======================== */
 var SLIDE_MS = 1000,
@@ -176,7 +226,12 @@ function placeholder(p, s) {
   );
 }
 
-var CATS = ["IFMSA-Egypt", "MSSA-mansoura", "Brand Identities"],
+var CATS = [
+  "IFMSA-Egypt",
+  "MSSA-mansoura",
+  "Brand Identities",
+  "Unpublished Projects",
+],
   grids = {};
 var catsEl = document.getElementById("cats");
 CATS.forEach(function(name) {
